@@ -5,16 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
-    return (
-      <div className="container">
-        <div className="row">
-          <div className="col-6">Column 1</div>
-          <div className="col-6">
-            <i className="fas fa-home"></i>Column 2
-          </div>
-        </div>
-      </div>
-    );
+    return <React.Fragment>Hello from the app</React.Fragment>;
   }
 }
 
