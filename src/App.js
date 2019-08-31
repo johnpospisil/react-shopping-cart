@@ -5,7 +5,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
-    return <React.Fragment>Hello from the app</React.Fragment>;
+    return (
+      <React.Fragment>
+        <h3>Hello, from the app!</h3>
+      </React.Fragment>
+    );
   }
 }
 
