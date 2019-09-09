@@ -29,6 +29,7 @@ export default class Product extends Component {
                   onClick={() => {
                     // console.log("added to the cart");
                     value.addToCart(id);
+                    value.openModal(id);
                   }}
                 >
                   {inCart ? (
