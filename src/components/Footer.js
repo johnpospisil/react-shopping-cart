@@ -12,7 +12,7 @@ export default class Footer extends Component {
             <Link to="https://github.com/johnpospisil/react-shopping-cart">
               Github
             </Link>{" "}
-            using: <Link to="https://reactjs.org/">React</Link>.
+            using <Link to="https://reactjs.org/">React</Link>.
           </p>
         </nav>
       </div>
