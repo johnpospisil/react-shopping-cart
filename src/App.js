@@ -21,6 +21,16 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
+        <nav className="navbar bg-light">
+          <p>
+            This shopping cart demonstration site made by{" "}
+            <a href="http://www.johnpospisil.com">John Pospisil</a> on{" "}
+            <a href="https://github.com/johnpospisil/react-shopping-cart">
+              GitHub
+            </a>{" "}
+            using: <a href="https://reactjs.org/">React</a>.
+          </p>
+        </nav>
       </React.Fragment>
     );
   }
