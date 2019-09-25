@@ -8,6 +8,7 @@ import Details from "./components/Details";
 import Cart from "./components/Cart/";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -21,16 +22,7 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
-        <nav className="navbar bg-light">
-          <p>
-            This shopping cart demonstration site made by{" "}
-            <a href="http://www.johnpospisil.com">John Pospisil</a> on{" "}
-            <a href="https://github.com/johnpospisil/react-shopping-cart">
-              GitHub
-            </a>{" "}
-            using: <a href="https://reactjs.org/">React</a>.
-          </p>
-        </nav>
+        <Footer />
       </React.Fragment>
     );
   }
